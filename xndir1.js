@@ -1,10 +1,11 @@
 const array = [1,98,78,56,0,24]
 const kentArray = []
-const zuygArray = []
+
 
 
 function zuyg(arr) {
-    for (let i = 0; i < array.length; i++) {
+    const zuygArray = []
+    for (let i = 0; i < arr.length; i++) {
       if (array[i] % 2 === 0) {
           zuygArray.push(array[i]) 
       }

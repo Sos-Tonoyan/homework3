@@ -1,8 +1,7 @@
 function hashvich(m,n,a){
     if(a == "*"){
         return m*n
-    }
-    if(a == "/"){
+    }else if(a == "/"){
         return m/n
     }
     if(a == "+"){
