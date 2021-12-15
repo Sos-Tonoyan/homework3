@@ -3,7 +3,6 @@ const user = {
     surname: "Tonoyan"
 }
 
-
 user.name = "Armen";
 user.age = 18;
 delete user.surname;
